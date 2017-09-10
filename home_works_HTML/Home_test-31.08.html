@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Домашнее задание по теме HTML</title>
+	</head>
+	<body>
+
+	<!-- task №1-->
+
+		<h2>Список покупок</h2>
+		 <ul type="square">
+			<li>батон</li>
+			<li type="circle">молоко</li>
+			<li>продукты на салат</li>
+				<ol start="2">
+					<li>помидоры</li>
+					<li>огурцы</li>
+					<li>заправка</li>
+					<ol type="a">
+					<li>масло</li>
+					<li type="A">уксус</li>
+					<li>соль</li>
+					</ol>
+				</ol>
+				<li>колбаса</li>
+		 </ul>
+
+		 <!-- task №2-->
+
+		 <h2>График дежурств по дням</h2>
+		 <table border="1" cellpadding="3" cellspacing="0">
+			<tr>
+				<td colspan="4" rowspan="2"></td>
+				<th colspan="9">День недели</th>
+			</tr>
+			<tr>
+				<th>пн</th>
+				<th>вт</th>
+				<th>ср</th>
+				<th>чт</th>
+				<th>пт</th>
+				<th>сб</th>
+				<th colspan="3">вс</th>
+			</tr>
+			<tr>
+				<td colspan="2">Иван</td>
+				<td colspan="2">ночь</td>
+				<td>х</td>
+				<td>х</td>
+				<td>х</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td colspan="3" rowspan="4">Закрыто</td>
+			</tr>
+			<tr>
+				<td colspan="2">Иван</td>
+				<td colspan="2">день</td>
+				<td></td>
+				<td></td>
+				<td>х</td>
+				<td>х</td>
+				<td>х</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="2">Олег</td>
+				<td colspan="2">ночь</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>х</td>
+				<td>х</td>
+				<td>х</td>
+			</tr>
+			<tr>
+				<td colspan="2">Олег</td>
+				<td colspan="2">ночь</td>
+				<td>х</td>
+				<td>х</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		 </table>
+
+		 <!-- task №3-->
+
+		 <h2>Форма регистрации</h2>
+			<form action="google.com" method="post">
+			<label>Имя:</label><input type="text" name="first_name"><br>
+			<label>Пароль:</label><input type="password" name="password"></br>
+			<label>Пол:</label><label><input type="radio" name="status">М</label>
+			<label><input type="radio" name="status">Ж</label><br>
+			<label>Месяц рождения:</label>
+			<select>
+			  <option>Январь</option>
+			  <option>Февраль</option>
+			  <option>Март</option>
+			  <option>Апрель</option>
+			  <option>Май</option>
+			  <option>Июнь</option>
+			  <option>Июль</option>
+			  <option>Август</option>
+			  <option>Сентябрь</option>
+			  <option>Октябрь</option>
+			  <option>Ноябрь</option>
+			  <option>Декабрь</option>
+			</select><br>
+			<label for="over">Старше 18:</label><input type="checkbox"><br>
+			<form enctype="multipart/form-data" method="post">Фото:<input type="file" name="photo" multiple accept="image/*,image/jpeg"><br>
+			  <input type="submit" value="Отправить">&nbsp<input type="reset" name="d" value="Сброс">
+			</form>
+
+		 <!-- task №4-->
+
+		 <h2>Введение в HTML</h2>
+		 <p>Опубликовано 31.08.2017</p>
+		 <h3>Содержание</h3>
+			<ul>
+				<li><a href="#" title="Что такое HTML?">Что такое HTML? </a>
+				</li>
+				<li><a href="#" title="Простейшая HTML-страница">Простейшая HTML-страница</a>
+				</li>
+			</ul>
+		<h3>Что такое HTML?</h3>
+		<p><strong><abbr title="HyperText Markup Language, язык разметки гипертекста">HTML</abbr></strong> - язык гипертекстовой разметки для создания страниц в сети Internet</p>
+		<h3>Простейшая HTML-страница </h3>
+		<p>Код простейшей html-страницы выглядит следующим образом:</p>
+			<listing>
+			&lt;!DOCTYPE html&gt;<br />
+			&lt;html&gt;<br />
+			&nbsp;&lt;head&gt;<br />
+			&nbsp;&lt;title&gt;Я страничка!&lt;/title&gt;<br />
+			&lt;head&gt;<br />
+			&nbsp;&lt;body&gt;<br />
+			&nbsp;&lt;p&gt;Привет, мир!&lt;/p&gt;<br />
+			&nbsp;&lt;/body&gt;<br />
+			&lt;/html&gt;
+			</listing>
+	</body>
+</html>
