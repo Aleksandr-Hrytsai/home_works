@@ -1,0 +1,337 @@
+@import url("../css/narrow.css");
+@import url("../css/mobile.css");
+
+@media all and (min-width: 801px) {
+
+    body {
+        background: #33691E url("../img/diagmonds-light.png") repeat scroll 0 0;
+        font-family: 'Exo 2', sans-serif;
+        margin: 0 auto;
+        font-size: 14px;
+        width: 100%;
+        max-width: 1024px;
+
+    }
+
+    header {
+        font-size: 1.2em;
+        background: #33691E;
+        color: #F1F8E9;
+        border-bottom: 2px solid #F1F8E9;
+        top: 0;
+    }
+
+    .letter {
+        color: #689F38;
+    }
+
+    h1 {
+        padding: 5px 5px;
+        margin: 0 auto;
+    }
+
+    h2 {
+        padding: 5px 5px;
+        margin: 0 auto;
+    }
+
+    nav {
+        background: #33691E;
+        margin: -17px 0 0 295px;
+        border-right: 2px double #F1F8E9;
+        border-left: 2px double #F1F8E9;
+        border-bottom: 2px double #F1F8E9;
+        border-radius: 0 0 5px 5px;
+        width: 426px;
+        height: 25px;
+    }
+
+    input {
+        display: none;
+    }
+
+    .fa-bars {
+        display: none;
+    }
+
+    .top_menu {
+        padding: 0 0 0 1px;
+    }
+
+    .menu {
+        display: inline-block;
+        margin-right: 3px;
+        padding: 3px 25px 4px 25px;
+        color: #F1F8E9;
+    }
+
+    .menu:hover {
+        background: #689F38;
+        transition: all 500ms ease-in-out;
+    }
+
+    a {
+        color: #F1F8E9;
+        text-decoration: none;
+    }
+
+    hr {
+        border: none;
+        background-color: #689F38;
+        color: #689F38;
+        height: 2px;
+        margin: 2px;
+    }
+
+    main {
+        background: #F1F8E9;
+        width: 64%;
+        float: right;
+        clear: both;
+        margin: 25px 0 10px 5px;
+        padding: 3px 3px 3px 3px;
+    }
+
+    .big {
+        width: 50%;
+        float: left;
+
+    }
+
+    .big:hover {
+        z-index: 2;
+        transform: scale(1.1, 1.1);
+        transform-origin: 0;
+        transition: all 200ms ease;
+    }
+
+    .img_mops_small {
+        float: left;
+        clear: both;
+        margin: 20px 0 20px 5px;
+    }
+
+    .under_big {
+        width: 103px;
+        height: 103px;
+        margin-top: -15px;
+        filter: grayscale(100%);
+        z-index: 1;
+    }
+
+    .under_big:hover {
+        filter: none;
+    }
+
+    .dog_data {
+        text-align: left;
+        list-style-type: none;
+        margin: 1px;
+        padding: 5px;
+        overflow: hidden;
+    }
+
+    .gray {
+        background: #D8DFCF;
+        margin: 5px 5px 5px 5px;
+        text-align: right;
+        padding-right: 5px;
+
+    }
+
+    .white {
+        margin: 5px 5px 5px 5px;
+        text-align: right;
+        padding-right: 5px;
+    }
+
+    .item {
+        float: left;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+    button {
+        color: #F1F8E9;
+        background: linear-gradient(#33691E, #689F38);
+        box-shadow: 0 0 10px 3px #33691E;
+        border: 0 #33691E;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 1.8em;
+        font-weight: bold;
+        height: 48px;
+        line-height: 20px;
+        padding: 0 100px;
+        margin: 0 0 0 180px;
+        text-align: center;
+    }
+
+    button:active {
+        box-shadow: 0 0 5px 2px #33691E;
+        transition: all 10ms ease 0s;
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+    .icons {
+        margin-left: 220px;
+    }
+
+    .fa-google-plus-official {
+        color: red;
+        font-size: 30px;
+    }
+
+    .fa-facebook-official {
+        color: #4B63B2;
+        font-size: 30px;
+    }
+
+    .fa-twitter {
+        color: #5EA5D2;
+        font-size: 30px;
+    }
+
+    .fa-pinterest {
+        color: #AF0D25;
+        font-size: 30px;
+    }
+
+    .sidebar {
+        width: 33.33333%;
+        float: left;
+        background: #F1F8E9;
+        margin: 25px 0 0 7px;
+        padding: 3px 3px 3px 3px;
+    }
+
+    .sidebar li {
+        display: block;
+        margin-left: -30px;
+        padding: 1px;
+        color: #689F38;
+    }
+
+    .sidebar li:hover {
+        text-decoration: underline;
+        background: none;
+    }
+
+    .sidebar li a {
+        color: #689F38;
+    }
+
+    .dog_corgi {
+        margin-top: 15px;
+        margin-left: 70px;
+        max-width: 200px;
+    }
+
+    .sign {
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-top: -2px;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .lower_photos {
+        margin: 15px 10px 15px 20px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .lower {
+        width: 185px;
+
+        padding: 5px 10px;
+    }
+
+    .img_bottom {
+        display: inline-block;
+        position: absolute;
+        font-size: 1.2em;
+        color: #F1F8E9;
+        font-weight: bold;
+        margin: 160px 0 0 -138px;
+        z-index: 1;
+    }
+
+    .substrate1 {
+        width: 185px;
+        height: 31px;
+        background: #406B1E;
+        border-bottom: 3px solid #618645;
+        opacity: 0.8;
+        display: inline-block;
+        position: absolute;
+        margin: 156px 0 0 -198px;
+        z-index: 0;
+    }
+
+    .substrate2 {
+        width: 185px;
+        height: 31px;
+        background: #406B1E;
+        border-bottom: 3px solid #618645;
+        opacity: 0.8;
+        display: inline-block;
+        position: absolute;
+        margin: 156px 0 0 -198px;
+        z-index: 0;
+    }
+
+    .substrate3 {
+        width: 185px;
+        height: 31px;
+        background: #406B1E;
+        border-bottom: 3px solid #618645;
+        opacity: 0.8;
+        display: inline-block;
+        position: absolute;
+        margin: 156px 0 0 -195px;
+        z-index: 0;
+    }
+
+    .animation {
+        width: 210px;
+        height: 210px;
+        position: absolute;
+        background: #33691E;
+        margin: -8px 0 0 20px;
+        animation: animation 12s steps(3, end) infinite;
+    }
+
+    @keyframes animation {
+        0% {
+            margin-left: 17px;
+        }
+        100% {
+            margin-left: 642px;
+        }
+    }
+
+    footer {
+        background: #33691E;
+        border-top: 2px solid #F1F8E9;
+        color: #F1F8E9;
+        text-align: left;
+        width: 100%;
+        max-width: 1024px;
+        min-width: 800px;
+        position: relative;
+        bottom: 0;
+        height: 40px;
+        overflow: hidden;
+    }
+
+    h5 {
+        margin: 12px 0;
+    }
+}

@@ -1,0 +1,342 @@
+@media screen and (max-width: 480px) {
+
+    body {
+        background: #33691E url("../img/diagmonds-light.png") repeat scroll 0 0;
+        font-family: 'Exo 2', sans-serif;
+        margin: 0 auto;
+        font-size: 16px;
+        width: 100%;
+        max-width: 480px;
+
+    }
+
+    header {
+        font-size: 1.2em;
+        background: #33691E;
+        color: #F1F8E9;
+
+        margin: 0;
+    }
+
+    .letter {
+        color: #689F38;
+    }
+
+    h1 {
+        padding: 5px 5px;
+        margin: 0 auto;
+    }
+
+    h2 {
+        padding: 5px 5px;
+        margin: 0 auto;
+    }
+
+    nav {
+        display: none;
+        background: #33691E;
+        margin: -17px 0 0 0;
+        border-bottom: 2px solid #F1F8E9;
+        width: 100%;
+        height: auto;
+    }
+
+    input {
+        display: none;
+    }
+
+    #menu_:checked + nav {
+        display: block;
+        position: absolute;
+        margin: 6px 0 0 0;
+    }
+
+    .fa-bars {
+        cursor: pointer;
+        display: block;
+        font-size: 30px;
+        color: #F1F8E9;
+        margin: -35px 0 0 90%;
+    }
+
+    .top_menu {
+        padding: 0 0 5px 0;
+    }
+
+    .menu {
+        list-style-type: none;
+        background: #33691E;
+        font-size: 1.2em;
+        margin-top: -3px;
+        margin-right: 3px;
+        padding: 3px 60px 4px 60px;
+        color: #F1F8E9;
+        text-align: center;
+    }
+
+    .menu:active {
+        background: #689F38;
+        transition: all 100ms ease-in-out;
+    }
+
+    a {
+        color: #F1F8E9;
+        text-decoration: none;
+    }
+
+    hr {
+        border: none;
+        background-color: #689F38;
+        color: #689F38;
+        height: 2px;
+        margin: 2px;
+    }
+
+    main {
+        background: #F1F8E9;
+        width: 100%;
+        float: none;
+        margin: 25px 0 0 0;
+
+    }
+
+    .dog_data {
+
+        clear: both;
+        text-align: left;
+        list-style-type: none;
+        margin: 0;
+        padding: 5px;
+    }
+
+    .gray {
+        background: #D8DFCF;
+        margin: 5px 5px 5px 15px;
+        text-align: right;
+        padding-right: 5px;
+    }
+
+    .white {
+        margin: 5px 5px 5px 15px;
+        text-align: right;
+        padding-right: 5px;
+    }
+
+    .item {
+        float: left;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+    .img_mops_small {
+        clear: both;
+        margin: 20px 0 20px 5px;
+    }
+
+    .big {
+        width: 98%;
+        margin: 30px 5px 5px 5px;
+
+    }
+
+    .under_big {
+
+        width: 150px;
+        height: 140px;
+        margin-top: -20px;
+        filter: grayscale(100%);
+        z-index: 1;
+    }
+
+    .under_big:active {
+        filter: none;
+    }
+
+    button {
+        color: #F1F8E9;
+        background: linear-gradient(#33691E, #689F38);
+        box-shadow: 0 0 10px 3px #33691E;
+        border: 0 #33691E;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 1.8em;
+        font-weight: bold;
+        height: 48px;
+        line-height: 20px;
+        padding: 0 100px;
+        margin: 10px 0 0 90px;
+        text-align: center;
+
+    }
+
+    button:active {
+        box-shadow: 0 0 5px 2px #33691E;
+        transition: all 10ms ease 0s;
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+    .but {
+        margin: 15px 0 0 230px;
+
+    }
+
+    .icons {
+        margin-left: 140px;
+    }
+
+    .fa-google-plus-official {
+        color: red;
+        font-size: 30px;
+    }
+
+    .fa-facebook-official {
+        color: #4B63B2;
+        font-size: 30px;
+    }
+
+    .fa-twitter {
+        color: #5EA5D2;
+        font-size: 30px;
+    }
+
+    .fa-pinterest {
+        color: #AF0D25;
+        font-size: 30px;
+    }
+
+    .sidebar {
+        width: 100%;
+        background: #F1F8E9;
+        margin: 25px 0 0 0;
+
+    }
+
+    .sidebar li {
+        display: block;
+        margin-left: -30px;
+        padding: 5px;
+        color: #689F38;
+    }
+
+    .sidebar li:active {
+        text-decoration: underline;
+        background: none;
+    }
+
+    .sidebar li a {
+        color: #689F38;
+    }
+
+    .sidebar1 {
+        float: left;
+        width: 100%;
+
+    }
+
+    .sidebar2 {
+        float: left;
+        width: 100%;
+
+    }
+
+    .sidebar3 {
+
+        clear: both;
+    }
+
+    .dog_corgi {
+        margin-top: 15px;
+        margin-left: 140px;
+        max-width: 200px;
+    }
+
+    .sign {
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-top: -2px;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .lower_photos {
+        margin: 15px 0 15px 120px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .lower {
+        max-width: 225px;
+
+        padding: 5px 10px;
+    }
+
+    .img_bottom {
+        display: inline-block;
+        position: absolute;
+        font-size: 1.2em;
+        color: #F1F8E9;
+        font-weight: bold;
+        margin: 200px 0 0 -165px;
+        z-index: 1;
+    }
+
+    .substrate1 {
+        width: 225px;
+        height: 31px;
+        background: #406B1E;
+        border-bottom: 5px solid #618645;
+        opacity: 0.9;
+        display: inline-block;
+        position: absolute;
+        margin: 195px 0 0 -235px;
+        z-index: 0;
+    }
+
+    .substrate2 {
+        width: 225px;
+        height: 31px;
+        background: #406B1E;
+        border-bottom: 5px solid #618645;
+        opacity: 0.8;
+        display: inline-block;
+        position: absolute;
+        margin: 195px 0 0 -235px;
+        z-index: 0;
+    }
+
+    .substrate3 {
+        width: 225px;
+        height: 31px;
+        background: #406B1E;
+        border-bottom: 5px solid #618645;
+        opacity: 0.8;
+        display: inline-block;
+        position: absolute;
+        margin: 195px 0 0 -235px;
+        z-index: 0;
+    }
+
+    footer {
+        background: #33691E;
+        border-top: 2px solid #F1F8E9;
+        color: #F1F8E9;
+        text-align: left;
+        width: 100%;
+        max-width: 480px;
+        position: relative;
+        bottom: 0;
+        height: 40px;
+        overflow: hidden;
+    }
+
+    h5 {
+        margin: 12px 0;
+    }
+
+}
