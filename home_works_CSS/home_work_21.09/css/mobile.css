@@ -11,10 +11,11 @@
     }
 
     header {
+        width: 100%;
+        max-width: 480px;
         font-size: 1.2em;
         background: #33691E;
         color: #F1F8E9;
-
         margin: 0;
     }
 
@@ -101,7 +102,7 @@
     }
 
     .dog_data {
-
+        width: 96%;
         clear: both;
         text-align: left;
         list-style-type: none;
@@ -134,14 +135,14 @@
     }
 
     .big {
-        width: 98%;
+        width: 97%;
         margin: 30px 5px 5px 5px;
 
     }
 
     .under_big {
 
-        width: 150px;
+        width: 32%;
         height: 140px;
         margin-top: -20px;
         filter: grayscale(100%);
@@ -163,8 +164,8 @@
         font-weight: bold;
         height: 48px;
         line-height: 20px;
-        padding: 0 100px;
-        margin: 10px 0 0 90px;
+        padding: 0 20%;
+        margin: 10px 0 0 20%;
         text-align: center;
 
     }
@@ -184,7 +185,7 @@
     }
 
     .icons {
-        margin-left: 140px;
+        margin-left: 25%;
     }
 
     .fa-google-plus-official {
@@ -248,9 +249,9 @@
     }
 
     .dog_corgi {
-        margin-top: 15px;
-        margin-left: 140px;
-        max-width: 200px;
+        margin-top: 5%;
+        margin-left: 26%;
+        max-width: 50%;
     }
 
     .sign {
@@ -265,15 +266,13 @@
     }
 
     .lower_photos {
-        margin: 15px 0 15px 120px;
-        position: relative;
-        z-index: 1;
+        padding-bottom: 5%;
+        margin-left: 23%;
     }
 
     .lower {
-        max-width: 225px;
-
-        padding: 5px 10px;
+        width: 65%;
+        margin: 3.5% 2.5% 3% 2.5%;
     }
 
     .img_bottom {
@@ -282,44 +281,19 @@
         font-size: 1.2em;
         color: #F1F8E9;
         font-weight: bold;
-        margin: 200px 0 0 -165px;
+        margin: 46.5% 0 0 -37%;
         z-index: 1;
     }
 
-    .substrate1 {
-        width: 225px;
-        height: 31px;
+    .substrate {
+        width: 50%;
+        height: 3%;
         background: #406B1E;
-        border-bottom: 5px solid #618645;
-        opacity: 0.9;
-        display: inline-block;
-        position: absolute;
-        margin: 195px 0 0 -235px;
-        z-index: 0;
-    }
-
-    .substrate2 {
-        width: 225px;
-        height: 31px;
-        background: #406B1E;
-        border-bottom: 5px solid #618645;
         opacity: 0.8;
         display: inline-block;
         position: absolute;
-        margin: 195px 0 0 -235px;
-        z-index: 0;
-    }
-
-    .substrate3 {
-        width: 225px;
-        height: 31px;
-        background: #406B1E;
-        border-bottom: 5px solid #618645;
-        opacity: 0.8;
-        display: inline-block;
-        position: absolute;
-        margin: 195px 0 0 -235px;
-        z-index: 0;
+        margin: 45.5% 0 0 -52%;
+        z-index: 1;
     }
 
     footer {
