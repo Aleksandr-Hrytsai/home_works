@@ -309,7 +309,8 @@
         overflow: hidden;
     }
 
-    h5 {
-        margin: 12px 0;
+    h4 {
+        padding-top: 12px;
+        margin: 0 auto;
     }
 }

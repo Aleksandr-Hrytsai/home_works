@@ -8,20 +8,22 @@
         font-family: 'Exo 2', sans-serif;
         margin: 0 auto;
         font-size: 14px;
-        width: 100%;
-        max-width: 1024px;
+        overflow-x:hidden;
+
 
     }
 
     header {
-        width: 100%;
-        max-width: 1024px;
         min-width: 801px;
         font-size: 1.2em;
         background: #33691E;
         color: #F1F8E9;
         border-bottom: 2px solid #F1F8E9;
         top: 0;
+    }
+    .title {
+        max-width: 1024px;
+        margin: 0 auto;
     }
 
     .letter {
@@ -40,7 +42,7 @@
 
     nav {
         background: #33691E;
-        margin: -16px 0 0 28%;
+        margin: 0 auto;
         border-right: 2px solid #F1F8E9;
         border-left: 2px solid #F1F8E9;
         border-bottom: 2px solid #F1F8E9;
@@ -59,6 +61,7 @@
 
     .top_menu {
         padding: 0 0 0 1px;
+        margin-top: -2px;
     }
 
     .menu {
@@ -83,22 +86,29 @@
         background-color: #689F38;
         color: #689F38;
         height: 2px;
-        margin: 2px;
+    }
+    article {
+        width: 100%;
+        max-width: 1024px;
+        margin: 0 auto;
+        padding-top: 25px;
     }
 
     main {
         background: #F1F8E9;
-        width: 64.2%;
+        width: 65%;
         float: right;
         clear: both;
-        margin: 25px 0 10px 5px;
-        padding: 3px 3px 3px 3px;
+        padding: 3px;
+        margin-bottom: 10px;
+
     }
 
     .big {
         width: 50%;
         float: left;
         position: relative;
+        margin-top: 12px;
 
     }
 
@@ -112,14 +122,13 @@
     .img_mops_small {
         float: left;
         clear: both;
-        margin: 20px 0 20px 5px;
+        margin-top: 1%;
         width: 50%;
     }
 
     .under_big {
-        width: 32%;
+        width: 32.2%;
         height: 103px;
-        margin-top: -15px;
         filter: grayscale(100%);
         z-index: 1;
     }
@@ -131,7 +140,7 @@
     .dog_data {
         text-align: left;
         list-style-type: none;
-        margin: 1px;
+        margin-top: 5px;
         padding: 5px;
         overflow: hidden;
     }
@@ -168,7 +177,7 @@
         height: 48px;
         line-height: 20px;
         padding: 0 100px;
-        margin: 0 0 0 180px;
+        margin: 3% 0 0 28%;
         text-align: center;
     }
 
@@ -182,7 +191,7 @@
     }
 
     .icons {
-        margin-left: 220px;
+        margin-left: 33%;
     }
 
     .fa-google-plus-official {
@@ -206,16 +215,15 @@
     }
 
     .sidebar {
-        width: 32.5%;
+        width: 33%;
         float: left;
         background: #F1F8E9;
-        margin: 25px 0 0 7px;
         padding: 3px 3px 3px 3px;
     }
 
     .sidebar li {
         display: block;
-        margin-left: -30px;
+        margin-left: -10%;
         padding: 1px;
         color: #689F38;
     }
@@ -248,7 +256,6 @@
     }
 
     .lower_photos {
-        margin-left:  2.2%;
         position: relative;
         z-index: 1;
     }
@@ -303,16 +310,15 @@
         border-top: 2px solid #F1F8E9;
         color: #F1F8E9;
         text-align: left;
-        width: 100%;
-        max-width: 1024px;
-        min-width: 800px;
+        min-width: 801px;
         position: relative;
         bottom: 0;
         height: 40px;
         overflow: hidden;
     }
 
-    h5 {
-        margin: 12px 0;
+    h4 {
+        padding-top: 12px;
+        margin: 0 auto;
     }
 }
